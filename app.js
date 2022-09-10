@@ -7,7 +7,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 
 //Connection to MongoAtlas and connecting to specific DataBase
-mongoose.connect("mongodb+srv://aarezansari:Test123@cluster0.tzdx1.mongodb.net/blogpostsDB", {usenewUrlParser: true});
+mongoose.connect("mongodb+srv://aarezansari:<PASS>@cluster0.tzdx1.mongodb.net/blogpostsDB", {usenewUrlParser: true});
 
 //Creating schema for structure to store posts
 const postSchema = {
